@@ -1,4 +1,6 @@
-define(['jquery','template','bootstrap'], function ($,template) {
+define(['jquery','template','util','bootstrap'], function ($,template,util) {
+    //设置导航菜单选中
+    util.setMenu(location.pathname);
     //请求后台接口，调取后台数据
     $.ajax({
         type:'get',//请求方式

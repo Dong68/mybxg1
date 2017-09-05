@@ -8,7 +8,10 @@ require.config({
         template:'artTemplate/template-web',
         teacherlist:'../js/teacher-list',
         //引入bootstrap
-        bootstrap:'bootstrap/js/bootstrap.min'
+        bootstrap:'bootstrap/js/bootstrap.min',
+        index:'../js/index',
+        util:'../js/util',
+        teacheradd:'../js/teacher-add'
     },
     shim:{//shim的作用就是把非标准模块转换为标准模块
         bootstrap: {//把bootstrap转为标准模块
