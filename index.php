@@ -1,7 +1,7 @@
 <?php
     //路由：意思就是根据URL的不同导航到不同的页面
     $dir='main';//默认文件夹名称
-    $filename='index';//默认文件名称
+    $filename='login';//默认文件名称
     //判断路径是否存在
     if(array_key_exists('PATH_INFO',$_SERVER)){
     //获取URL中的路径,解析之后的路径是：/main/index
